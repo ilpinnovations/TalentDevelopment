@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sharefragment"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share Course"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:layout_margin="25dp"/>
+
+    <View
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+        <Button
+            android:id="@+id/share1"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/whatsapp_icon"
+            android:text="Whatsapp"
+            android:textSize="10dp"/>
+
+        <Button
+            android:id="@+id/share2"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/facebook_icon"
+            android:text="Facebook"
+            android:textSize="10dp"/>
+
+        <Button
+            android:id="@+id/share3"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:drawablePadding="10dp"
+            android:drawableTop="@drawable/message_icon"
+            android:text="Message"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

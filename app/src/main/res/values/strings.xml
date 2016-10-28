@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Talent Development UKampI</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_display_settings">View in list mode</string>
+    <string name="action_search">Search</string>
+    <string name="login_information">Help</string>
+    <string name="copyright_text">\u00a9 ILP Innovations 2016</string>
+    <string name="feedback_hint">Please select the appropriate number of stars to understand your knowledge level before and after the training.</string>
+    <string name="feedback_hint1">Please select the appropriate number of stars to indicate the level of acceptance with the following assertions, one being lowest and four being highest.</string>
+    <string name="feedback_hint2">Please select the appropriate number of stars to indicate the overall performance of associate in the training.</string>
+    <string name="title1">Before the program</string>
+    <string name="title2">After the program</string>
+
+    <!-- Feedback form one questions-->
+
+    <string name="f1_q1">Knowledge about the topics covered in the program</string>
+    <string name="f1_q2">Knowledge about importance of topics covered and its relevance to my job.</string>
+    <string name="f1_q3">Practical know how to apply these aspects in my job.</string>
+    <string name="f1_q4">Confidence to apply these aspects in my job.</string>
+    <string name="f1_q5">Commitment to apply these aspects in my job.</string>
+    <string name="commentHint">Comments</string>
+
+    <!-- Feedback form two questions-->
+    <string name="f2_q1">The manner in which training was conducted helped me in my learning process.</string>
+    <string name="f2_q2">I was actively engaged and involved throughout the program.</string>
+    <string name="f2_q3">The information was presented in the logical and structured manner.</string>
+    <string name="f2_q4">The knowledge, information and resources presented helped me in my learning.</string>
+    <string name="f2_q5">The scope and content of the training was appropriate to meet my needs/job.</string>
+
+    <string name="f2_q6">The examples presented helped me in understanding the content.</string>
+    <string name="f2_q7">Was engaging and exciting.</string>
+    <string name="f2_q8">The room was free of any distractions and conductive to learning.</string>
+    <string name="f2_q9">The training would have a significant impact on: Increasing productivity and quality; Improving CSAT; Improving employee satisfaction and job performance.</string>
+    <string name="f2_q10">Overall I rate the course as.</string>
+
+    <string name="f2_q11">What about the course was most useful to you.</string>
+    <string name="f2_q12">What about this class was least useful to you and what can we change to make it more revelant to your job?.</string>
+
+
+</resources>

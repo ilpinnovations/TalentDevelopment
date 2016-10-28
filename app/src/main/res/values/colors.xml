@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#a15005</color>
+    <color name="colorPrimary">#B17845</color>
+    <color name="colorAccent">#69B23F</color>
+
+    <color name="learning_calendar_color">#0074bd</color>
+    <color name="contacts_color">#80368a</color>
+    <color name="registered_color">#d4c600</color>
+    <color name="completed_color">#e64b1c</color>
+
+    <color name="color1">#0074bd</color>
+    <color name="color2">#80368a</color>
+    <color name="color3">#FF9800</color>
+    <color name="color4">#d4c600</color>
+    <color name="color5">#e64b1c</color>
+
+</resources>

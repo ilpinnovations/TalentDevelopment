@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:gravity="left"
+                android:padding="10px"
+                android:text="@string/feedback_hint"
+                android:textSize="15sp" />
+
+            <!--Question 1-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:padding="10px"
+                android:text="@string/f1_q1"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title1" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat1"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title2" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat2"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <EditText
+                    android:id="@+id/f1_com1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/commentHint"
+                    android:inputType="text"
+                    android:textSize="12sp" />
+            </android.support.design.widget.TextInputLayout>
+
+
+            <!--Question 2-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:padding="10px"
+                android:text="@string/f1_q2"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title1" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat3"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title2" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat4"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <EditText
+                    android:id="@+id/f1_com2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/commentHint"
+                    android:inputType="text"
+                    android:textSize="12sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--Question 3-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:padding="10px"
+                android:text="@string/f1_q3"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title1" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat5"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title2" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat6"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <EditText
+                    android:id="@+id/f1_com3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/commentHint"
+                    android:inputType="text"
+                    android:textSize="12sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--Question 4-->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:padding="10px"
+                android:text="@string/f1_q4"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title1" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat7"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title2" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat8"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <EditText
+                    android:id="@+id/f1_com4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/commentHint"
+                    android:inputType="text"
+                    android:textSize="12sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <!--Question 5-->
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:layout_marginTop="15dp"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:padding="10px"
+                android:text="@string/f1_q5"
+                android:textColor="@color/abc_input_method_navigation_guard"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title1" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat9"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="5dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/title2" />
+
+
+            <android.support.v7.widget.AppCompatRatingBar
+                android:id="@+id/f1_rat10"
+                style="android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="4dp"
+                android:elevation="10dp"
+                android:numStars="5"
+                android:stepSize="1" />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp">
+
+                <EditText
+                    android:id="@+id/f1_com5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/commentHint"
+                    android:inputType="text"
+                    android:textSize="12sp" />
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="40px"
+                android:background="@color/colorPrimary"
+                android:padding="10px"
+                android:text="Next"
+                android:textColor="#ffffff" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</android.support.design.widget.CoordinatorLayout>
